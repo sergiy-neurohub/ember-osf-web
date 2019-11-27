@@ -1,0 +1,84 @@
+{
+  "bundles": {
+    "analytics-page": {
+      "assets": [
+        {
+          "uri": "/ember-osf-web/engines-dist/analytics-page/assets/engine-56664fcc6f3480fd756d681963dc4a83.css",
+          "type": "css"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/analytics-page/assets/engine-f39d8d372e35b77e5d73582ca009833d.js",
+          "type": "js"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/analytics-page/assets/engine-vendor-43bfa6c55fb97c0b8d877dd862be4b30.js",
+          "type": "js"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/analytics-page/assets/engine-vendor-520b186967a5a002b029082b17140fe1.css",
+          "type": "css"
+        }
+      ]
+    },
+    "collections": {
+      "assets": [
+        {
+          "uri": "/ember-osf-web/engines-dist/collections/assets/engine-263d932e2573da8f5b7a8119894e602b.js",
+          "type": "js"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/collections/assets/engine-a96fc97bf73a97093a1a640392544f8b.css",
+          "type": "css"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/collections/assets/engine-vendor-035547839661ee0733c904ae83ec1ffd.js",
+          "type": "js"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/collections/assets/engine-vendor-ed4900092cf535195df89a37e8a79926.css",
+          "type": "css"
+        }
+      ]
+    },
+    "handbook": {
+      "assets": [
+        {
+          "uri": "/ember-osf-web/engines-dist/handbook/assets/engine-6909f47ee074b0db351df3ba9bb0f504.js",
+          "type": "js"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/handbook/assets/engine-bb56b0efb65239cc3feeeecccabc34fc.css",
+          "type": "css"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/handbook/assets/engine-vendor-bd76af85801eacfe7a32274e62efc272.css",
+          "type": "css"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/handbook/assets/engine-vendor-f96f02472e07ca235c449bf51472dc5c.js",
+          "type": "js"
+        }
+      ]
+    },
+    "registries": {
+      "assets": [
+        {
+          "uri": "/ember-osf-web/engines-dist/registries/assets/engine-a3535eadd8c2bf1894f0431188c7be2f.js",
+          "type": "js"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/registries/assets/engine-c014832bbddf85ba8780e4154029141d.css",
+          "type": "css"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/registries/assets/engine-vendor-41044dcba47eb804733b0d59fd7b863b.js",
+          "type": "js"
+        },
+        {
+          "uri": "/ember-osf-web/engines-dist/registries/assets/engine-vendor-ed4900092cf535195df89a37e8a79926.css",
+          "type": "css"
+        }
+      ]
+    }
+  }
+}
