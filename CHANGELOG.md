@@ -444,7 +444,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Components
-    - `osf-navbar` - use img tag with alt text for navbar OSF logo instead of background CSS image
+    - `osf-navbar` - use img tag with alt text for navbar NeuroHub logo instead of background CSS image
 - Services
     - `analytics` - added `isWithdrawn` custom dimension to `trackPage()`
 
@@ -574,8 +574,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [19.5.0] - 2019-06-07
 ### Added
 - Models:
-    - `meeting` - for OSF Meetings
-    - `meeting-submission` - for OSF Meetings submissions
+    - `meeting` - for NeuroHub Meetings
+    - `meeting-submission` - for NeuroHub Meetings submissions
     - `external-identity` - for connected identities
 - Adapters:
     - `meeting` - in private namespace
@@ -664,7 +664,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - View-only link support:
     - Add `view_only` query param to `application` route
     - Store VOL info (token, anonymized) on `current-user` service
-    - Include VOL token in all API requests, all links within OSF
+    - Include VOL token in all API requests, all links within NeuroHub
 - Types:
     - `ember-a11y-testing` - `a11yAudit`
 - DX:
@@ -680,7 +680,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
     - `applicaton` - added `viewOnlyToken` query param
 - Components:
     - `osf-navbar`
-        - detect active OSF service for any non-engine service
+        - detect active NeuroHub service for any non-engine service
         - `x-links/hyper-link/x-anchor` added support for view-only links
     - `paginated-list`
         - add ability to provide a header row
@@ -822,7 +822,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
     - Using new `click` handler everywhere in main app to verify `data-analytics-name` usage
 - Travis
     - Use a production build for handbook
-- OSF API
+- NeuroHub API
     - Bump version from 2.8 to 2.14
 - Linting
     - upgraded to latest versions of:
@@ -1085,7 +1085,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
     - `copyable-text` - display some read-only text with a button to copy it
     - `validated-input/checkboxes` - list of checkboxes to choose what belongs in a has-many relation
     - `paginated-list/all` - list of all models of a given type
-    - `osf-header` - the OSF navbar, various banners, and secondary navbar wormhole all wrapped up.
+    - `osf-header` - the NeuroHub navbar, various banners, and secondary navbar wormhole all wrapped up.
     - `hyper-link` - combined `a` and `{{link-to}}` based off the `route` passed in. Supports analytics as well.
     - `delete-button` - configurable delete button, including a confirmation modal and scientist name
     - `tags-widget` - you know, for tags
@@ -1111,7 +1111,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
     - `register` route acceptance test
     - `param` util unit test
 - Blueprints:
-    - `osf-model` - creates model, adapter, and serializer for an OSF model
+    - `osf-model` - creates model, adapter, and serializer for an NeuroHub model
 - Types:
     - `ember-cli-mirage` - the 70% that seems possible to express in typescript
 - Handbook:
@@ -1296,7 +1296,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Components:
   - `simple-paginator` - use &gt; and &lt; instead of font-awesome chevrons
 - Engines:
-  - `analytics` - set page title to "OSF | [node title] Analytics"
+  - `analytics` - set page title to "NeuroHub | [node title] Analytics"
 - DX:
   - Test assertions: Collapse all whitespace characters to a single space
 
@@ -1339,7 +1339,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   - `resolve-guid.forks` - handling for guid sub-route: `forks`
 - Components:
   - `delete-node-modal` - deletion of nodes with the name verification step
-  - `node-blurb` - similar node previews all over the OSF
+  - `node-blurb` - similar node previews all over the NeuroHub
   - `simple-paginator` - you know, for pagination
 - Utils:
   - `random-scientist` - to support the `delete-node modal` component
@@ -1369,7 +1369,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   - `node` - add `fork()` method
   - `user-registration` - add max length validation for `email1`
 - Misc:
-  - update OSF API version to 2.8
+  - update NeuroHub API version to 2.8
   - refactor/simplify auth logic
 - DX:
   - make assets prefix configurable (defaults to `/ember_osf_web/`)
@@ -1426,7 +1426,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added isPublic, authenticated, and resource dimensions to trackPage()
 - defaultTo utility for initializing component arguments
 - Loading indicator to file-renderer component
-- Join OSF banner
+- Join NeuroHub banner
 - toArray utility
 - meta-tags service
 - Test: make sure config types match actual config
@@ -1461,8 +1461,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - In the `file-share-button` component:
   - Use encoded download URL for MFR URL
-  - Build fileURL from config.OSF.url and guid instead of window.location
-  - Build mfrUrl from config.OSF.renderUrl instead of hard-coded
+  - Build fileURL from config.NeuroHub.url and guid instead of window.location
+  - Build mfrUrl from config.NeuroHub.renderUrl instead of hard-coded
 
 ## [0.1.0] - 2018-02-07
 ### Added

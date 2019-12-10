@@ -57,7 +57,7 @@ module.exports = {
 * View the ember app (alone) at [localhost:4200](http://localhost:4200)
 
 To integrate with the legacy front end at [localhost:5000](http://localhost:5000), you have two options:
-* Enable the waffle flags for each page in your [local OSF Admin](http://localhost:8001/admin/waffle/flag)
+* Enable the waffle flags for each page in your [local NeuroHub Admin](http://localhost:8001/admin/waffle/flag)
 * Add routes to your `osf.io/website/settings/local.py`:
     ```py
     EXTERNAL_EMBER_APPS = {

@@ -6,7 +6,7 @@ import CommentModel from './comment';
 import OsfModel from './osf-model';
 
 /**
- * Model for OSF APIv2 comment reports. Primarily accessed via relationship fields.
+ * Model for NeuroHub APIv2 comment reports. Primarily accessed via relationship fields.
  *
  * @class CommentReport
  */

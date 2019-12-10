@@ -32,7 +32,7 @@ probably this.
 Check that `meta.active_flags` at the root `/v2/` endpoint matches your
 expectations. If not, restart your `api` container.
 
-If you're being served a legacy OSF page when you've enabled the flag for
+If you're being served a legacy NeuroHub page when you've enabled the flag for
 the embosf'd page, or vice versa, restart your `web` container.
 
 ## Multiple application divs
